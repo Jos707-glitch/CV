@@ -1,0 +1,177 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Fondo dividido */
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #f4f6f9 55%, #ffd1dc 45%);
+  color: #333;
+}
+
+/* Menú en esquina */
+nav {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  background: #ffb6c1;
+  padding: 10px;
+  border-radius: 10px;
+  z-index: 1000;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  margin: 10px 0;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background: #ffb6c1;
+  color: white;
+  margin-left: 150px;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+}
+
+
+#imagen-central {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
+  margin-left: 150px;
+}
+
+.img-sobre-mi {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+
+.contenido {
+  display: flex;
+  margin-left: 150px;
+}
+
+
+.izquierda {
+  flex: 1;
+  padding: 40px 20px;
+}
+
+
+.derecha {
+  flex: 1;
+  padding: 40px 20px;
+  background-color: #ffd1dc;
+}
+
+
+section h2 {
+  color: #ff69b4;
+  margin-bottom: 15px;
+  border-left: 5px solid #ff69b4;
+  padding-left: 10px;
+}
+
+
+#proyectos article {
+  background: #fff;
+  margin-bottom: 15px;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin: 10px 0 5px;
+}
+
+form input,
+form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+form button {
+  margin-top: 15px;
+  padding: 10px;
+  background: #ff69b4;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: #e05590;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #ffb6c1;
+  color: white;
+  margin-top: 30px;
+}
+.media-section {
+  margin: 40px 150px;
+  padding: 20px;
+  background-color: #fff0f5;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.media-section h2 {
+  color: #ff69b4;
+  margin-bottom: 15px;
+  border-left: 5px solid #ff69b4;
+  padding-left: 10px;
+}
+
+.video-container {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+audio {
+  display: block;
+  margin: 20px auto 0;
+}
+
